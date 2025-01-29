@@ -1,0 +1,1 @@
+This repository demonstrates a common yet subtle error in Rust involving the modification of a vector using raw pointers.  Improper handling of vector reallocation, which can occur during insertions or when the vector capacity is exceeded, can lead to memory corruption and crashes. This example illustrates the issue and provides a safe alternative.
